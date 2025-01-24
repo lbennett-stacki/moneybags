@@ -1,0 +1,4 @@
+target
+validator-keypair.json
+.env*
+!.env.example
