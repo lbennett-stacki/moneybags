@@ -1,0 +1,6 @@
+target/
+status
+uuid
+node_modules
+.env*
+!.env.example

@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "moneybags_models_signal_predictor_transformer"
+version = "0.0.0"
+description = ""
+authors = ["Luke Bennett"]
+license = "UNLICENSED"
+packages = [{ include = "signal_predictor" }]
+
+[tool.poetry.dependencies]
+argparse = "^1.4.0"
+pandas = "^2.2.3"
+python = "^3.12"
+torch = "^2.5.1"
+matplotlib = "^3.10.0"
+
+[tool.poetry.scripts]
+main = "signal_predictor.main:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
