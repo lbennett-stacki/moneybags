@@ -1,0 +1,28 @@
+[package]
+name = "moneybags-extractors-price"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = "0.22.1"
+borsh = "1.5.5"
+bs58 = "0.5.1"
+byteorder = "1.5.0"
+clap = { version = "4.5.28", features = ["derive"] }
+clickhouse = "0.13.1"
+crossbeam = { version = "0.8.4", features = ["crossbeam-channel"] }
+dashmap = "6.1.0"
+dotenvy = { version = "0.15.7", features = ["clap"] }
+dotenvy_macro = "0.15.7"
+redis = "0.29.0"
+reqwest = "0.12.12"
+serde = { version = "1.0.217", features = ["derive"] }
+serde_json = "1.0.138"
+serde_repr = "0.1.19"
+sha2 = "0.10.8"
+solana-client = "2.1.11"
+solana-sdk = "2.1.11"
+solana-transaction-status = "2.1.11"
+spl-token = "7.0.0"
+time = { version = "0.3.37", features = ["serde"] }
+tokio = "1.43.0"
